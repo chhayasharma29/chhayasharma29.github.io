@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOTUS HOMEAURA</title>
+        <link rel="icon" type="image/x-icon" href="c:\Users\user\Pictures\lotus favicon.PNG">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>LOTUS HOMEAURA🌼</h1>  
+        </header> 
+        <h2>Monthly Budget</h2>
+        <section class="budget">
+            <form>
+                <label for="electricity">Electricity Bill(₹):</label>
+                <input type="number" id="electricity" placeholder="Enter amount" min="0" value="0">
+
+                <label for="gas">Gas Bill (₹):</label>
+                <input type="number" id="gas" placeholder="Enter amount" min="0" value="0">
+
+                <label for="food">Food and Groceries(₹):</label>
+                <input type="number" id="food" placeholder="Enter amount" min="0" value="0">
+
+                <label for="internet">Internet Bill (₹):</label>
+                <input type="number" id="internet" placeholder="Enter amount" min="0" value="0"><br><br>
+            
+                <button type="button" onclick="calculateTotal()">Calculate Total</button>
+
+            </form>
+        </section>
+        <h2>Total Cost:</h2>
+        <p id="totalCost">₹ 0.00</p>
+        <br><br><br><br>
+        
+        <script src="script.js"></script>
+         <footer>
+          <p>© 2025 LOTUS HOMEAURA</p>
+       </footer>
+    </body>
+</html>
